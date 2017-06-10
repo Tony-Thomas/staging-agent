@@ -13,7 +13,7 @@ module.exports = function(grunt) {
                 dest: 'dist/js/scripts.js'
             },
             css: {
-                src: ['node_modules/bootstrap/dist/css/bootstrap.css', 'src/css/reset.css', 'src/css/main.css'],
+                src: ['src/css/reset.css', 'node_modules/bootstrap/dist/css/bootstrap.css', 'src/css/main.css'],
                 dest: 'dist/css/styles.css'
             }
         },
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
             build: {
                 files: [{
                     src: 'src/sass/index.scss',
-                    dest: 'src/css/styles.css'
+                    dest: 'src/css/main.css'
                 }]
             }
         },

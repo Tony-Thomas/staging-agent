@@ -17,6 +17,6 @@
     "grunt-contrib-uglify": "^3.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.5.3"
   }
 }
