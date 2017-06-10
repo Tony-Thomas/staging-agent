@@ -1,22 +1,37 @@
-.site-footer
-    background: black
-    text-align: center
+.social::before {
 
-    ul
-        padding: 1rem
+    font-family: FontAwesome;
+    padding-right: 5px;
 
-.social-menu a
-    color: white
+    &__twitter::before {
+        content: '\f099';
+    }
 
-    &:before
-        font-family: FontAwesome
-        padding-right: 5px
+    &__linkedin::before {
+        content: '\f0e1';
+    }
 
-    &.twitter:before
-        content: '\f099'
+    &__youtube::before {
 
-    &.facebook:before
-        content: '\f09a'
+    }
 
-    &.linkedin:before
-        content: '\f0e1'
+    &__facebook::before {
+        content: '\f09a';
+    }
+
+    &__google::before {
+
+    }
+
+    &__instagram::before {
+
+    }
+
+    &__pinterest::before {
+
+    }
+
+    &__medium::before {
+
+    }
+}
