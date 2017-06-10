@@ -1,18 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Gruppo|Nixie+One|Poiret+One");
-.site-footer {
-  background: black;
-  text-align: center; }
-  .site-footer ul {
-    padding: 1rem; }
-
-.social-menu a {
-  color: white; }
-  .social-menu a:before {
-    font-family: FontAwesome;
-    padding-right: 5px; }
-  .social-menu a.twitter:before {
+.social::before {
+  font-family: FontAwesome;
+  padding-right: 5px; }
+  .social::before__twitter::before {
     content: '\f099'; }
-  .social-menu a.facebook:before {
-    content: '\f09a'; }
-  .social-menu a.linkedin:before {
+  .social::before__linkedin::before {
     content: '\f0e1'; }
+  .social::before__facebook::before {
+    content: '\f09a'; }

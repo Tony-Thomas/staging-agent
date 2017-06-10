@@ -8,12 +8,18 @@ module.exports = function(grunt) {
          * https://www.npmjs.com/package/grunt-contrib-concat
          **/
         concat: {
-            /*js: {
-                src: ['','src/js/main.js'],
+            js: {
+                src: ['node_modules/jquery/dist/jquery.js',
+                    'node_modules/jquery.backstretch/jquery.backstretch.js',
+                    'src/js/main.js'
+                ],
                 dest: 'dist/js/scripts.js'
-            },*/
+            },
             css: {
-                src: ['node_modules/skeleton-css/css/normalize.css', 'node_modules/skeleton-css/css/skeleton.css', 'src/css/main.css'],
+                src: ['node_modules/skeleton-css/css/normalize.css',
+                    'node_modules/skeleton-css/css/skeleton.css',
+                    'src/css/main.css'
+                ],
                 dest: 'dist/css/styles.css'
             }
         },
