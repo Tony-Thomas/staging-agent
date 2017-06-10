@@ -1,0 +1,22 @@
+{
+  "name": "staging-agent",
+  "version": "0.0.1",
+  "description": "Development evironment utilizing bootstrap 4, grunt, sass, and pug",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony Thomas",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "node-sass": "^4.5.3",
+  }
+}
