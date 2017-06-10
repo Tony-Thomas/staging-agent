@@ -8,12 +8,12 @@ module.exports = function(grunt) {
          * https://www.npmjs.com/package/grunt-contrib-concat
          **/
         concat: {
-            js: {
-                src: ['node_modules/bootstrap/dist/js/bootstrap.js', 'src/js/main.js'],
+            /*js: {
+                src: ['','src/js/main.js'],
                 dest: 'dist/js/scripts.js'
-            },
+            },*/
             css: {
-                src: ['src/css/reset.css', 'node_modules/bootstrap/dist/css/bootstrap.css', 'src/css/main.css'],
+                src: ['node_modules/skeleton-css/css/normalize.css', 'node_modules/skeleton-css/css/skeleton.css', 'src/css/main.css'],
                 dest: 'dist/css/styles.css'
             }
         },
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'dist/js/scripts.min.js': ['node_modules/bootstrap/dist/js/bootstrap.js', 'dist/js/scripts.js']
+                    'dist/js/scripts.min.js': ['dist/js/scripts.js']
                 }
             }
         },
