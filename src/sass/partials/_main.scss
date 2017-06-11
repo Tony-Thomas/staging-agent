@@ -35,6 +35,24 @@
     }
 }
 
-.cta {
+.git p {
+    font-size: 5rem;
+}
 
+.cta {
+    //display: flex;
+    //align-items: flex-end;
+    //padding: 30px;
+    padding: 12rem 0 12rem 0;
+
+p {
+        font-size: 3rem;
+        margin-bottom: 0;
+        text-align: center;
+        //padding-left: 6.5rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
 }

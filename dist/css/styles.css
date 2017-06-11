@@ -883,10 +883,10 @@ there.
     margin-bottom: 0; }
   .site-footer__realtor {
     display: flex;
-    flex: 3; }
+    flex: 1; }
   .site-footer__social {
     display: flex;
-    flex: 5; }
+    flex: 6; }
     .site-footer__social a {
       flex: 1; }
 
@@ -922,6 +922,18 @@ there.
 
 .testimonial__photo img {
   border: 2px #247ba0; }
+
+.git p {
+  font-size: 5rem; }
+
+.cta {
+  padding: 12rem 0 12rem 0; }
+  .cta p {
+    font-size: 3rem;
+    margin-bottom: 0;
+    text-align: center; }
+  .cta a {
+    text-decoration: none; }
 
 .site-footer {
   background-color: #247ba0;
