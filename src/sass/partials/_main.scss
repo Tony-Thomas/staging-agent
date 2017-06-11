@@ -17,16 +17,12 @@
     }
 }
 
-.testimonials {
 
-    &__testimonial {
-
-    }
-}
 
 .testimonial {
 
-    &__photo {
+    &__photo img {
+        border: 2px $lapis-lazuli;
 
     }
 
