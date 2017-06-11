@@ -6,7 +6,8 @@
     flex: 3; }
   .navbar__links {
     display: flex;
-    flex: 5; }
+    flex: 5;
+    text-align: center; }
     .navbar__links a {
       flex: 1; }
 
@@ -55,7 +56,6 @@
     .navbar__logo a {
       font-size: 3rem; }
   .navbar a {
-    text-align: center;
     text-decoration: none; }
 
 .site-footer {
