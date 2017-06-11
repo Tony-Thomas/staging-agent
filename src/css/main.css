@@ -11,6 +11,15 @@
     .navbar__links a {
       flex: 1; }
 
+.bio {
+  padding: 5rem 0 5rem 0; }
+
+.portrait {
+  padding-top: 2rem; }
+
+.my-story {
+  padding: 2rem 0 0 2rem; }
+
 .testimonial__client {
   display: flex;
   flex-direction: column;
