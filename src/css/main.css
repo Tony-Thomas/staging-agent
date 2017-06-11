@@ -1,4 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=Gruppo|Nixie+One|Poiret+One");
+.navbar {
+  display: flex;
+  align-items: center; }
+  .navbar__logo {
+    flex: 3; }
+  .navbar__links {
+    display: flex;
+    flex: 5; }
+    .navbar__links a {
+      flex: 1; }
+
+.site-header {
+  background-color: #247ba0; }
+  .site-header a {
+    color: #fffcff; }
+
+.hero {
+  height: 70vh; }
+  .hero__overlay {
+    background: rgba(80, 81, 79, 0.7);
+    height: 70vh; }
+
+.navbar {
+  height: 70px; }
+  .navbar__logo {
+    margin-left: 2em;
+    font-size: 3rem; }
+  .navbar a {
+    text-align: center;
+    text-decoration: none; }
+
 .social::before {
   font-family: FontAwesome;
   padding-right: 5px; }

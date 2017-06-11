@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        flex: 3;
+    }
+
+    &__links {
+        display: flex;
+        flex: 5;
+
+        a {
+            flex: 1;
+        }
+    }
+}

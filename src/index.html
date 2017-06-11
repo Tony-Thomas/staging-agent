@@ -12,7 +12,7 @@
 
 <body>
     <!--START HEADER-->
-    <header class="hero">
+    <header class="site-header">
 
         <nav class="navbar">
             <div class="navbar__logo">
@@ -27,13 +27,19 @@
             </div>
         </nav>
     </header>
-    <!--END HEADER-->
+    <!--END SITE-HEADER-->
+
+    <!--START HERO-->
+    <div class="hero">
+        <div class="hero__overlay"></div>
+    </div>
+    <!--END HERO-->
 
     <!--START MAIN CONTENT-->
-    <main class="continer">
+    <main>
 
         <!--START SERVICES-->
-        <section class="services">
+        <section class=" container services">
             <article class="service services__staged-listings"></article>
             <article class=" service services__consulting"></article>
             <article class="service services__partnership"></article>
@@ -41,13 +47,13 @@
         <!--END SERVICES-->
 
         <!--START SHOWCASE-->
-        <section class="showcase">
+        <section class=" container showcase">
 
         </section>
         <!--END SHOWCASE-->
 
         <!--START BIO-->
-        <section class="bio">
+        <section class=" container bio">
             <h2>My story</h2>
             <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse impedit illum sit cupiditate doloribus inventore, consequuntur dolore itaque illo, non dolorem perspiciatis. Enim ab veniam, suscipit labore, ratione reiciendis inventore!</P>
             <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse impedit illum sit cupiditate doloribus inventore, consequuntur dolore itaque illo, non dolorem perspiciatis. Enim ab veniam, suscipit labore, ratione reiciendis inventore!</P>
@@ -57,48 +63,50 @@
         <!--END BIO-->
 
         <!--START TESTIMONIALS-->
-        <section class="testimonials">
-            <article class="testimonial">
-                <div class="testimonial__client">
-                    <span class="testimonial__photo"><img src="" alt=""></span>
-                    <span class="testimonial__name">John Doe</span>
-                    <div class="testimonial__quote">
-                        <blockquote cite="http://">
-                            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
-                            <cite></cite>
-                        </blockquote>
+        <section class="container testimonials">
+            <div class="row">
+                <article class="testimonial one-third column">
+                    <div class="testimonial__client">
+                        <span class="testimonial__photo"><img src="" alt=""></span>
+                        <span class="testimonial__name">John Doe</span>
+                        <div class="testimonial__quote">
+                            <blockquote cite="http://">
+                                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                                <cite></cite>
+                            </blockquote>
+                        </div>
                     </div>
-                </div>
-            </article>
-            <article class="testimonial">
-                <div class="testimonial__client">
-                    <span class="testimonial__photo"><img src="" alt=""></span>
-                    <span class="testimonial__name">Bob Smith</span>
-                    <div class="testimonial__quote">
-                        <blockquote cite="http://">
-                            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
-                            <cite></cite>
-                        </blockquote>
+                </article>
+                <article class="testimonial one-third column">
+                    <div class="testimonial__client">
+                        <span class="testimonial__photo"><img src="" alt=""></span>
+                        <span class="testimonial__name">Bob Smith</span>
+                        <div class="testimonial__quote">
+                            <blockquote cite="http://">
+                                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                                <cite></cite>
+                            </blockquote>
+                        </div>
                     </div>
-                </div>
-            </article>
-            <article class="testimonial">
-                <div class="testimonial__client">
-                    <span class="testimonial__photo"><img src="" alt=""></span>
-                    <span class="testimonial__name">Jane Smith</span>
-                    <div class="testimonial__quote">
-                        <blockquote cite="http://">
-                            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
-                            <cite></cite>
-                        </blockquote>
+                </article>
+                <article class="testimonial one-third column">
+                    <div class="testimonial__client">
+                        <span class="testimonial__photo"><img src="" alt=""></span>
+                        <span class="testimonial__name">Jane Smith</span>
+                        <div class="testimonial__quote">
+                            <blockquote cite="http://">
+                                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                                <cite></cite>
+                            </blockquote>
+                        </div>
                     </div>
-                </div>
-            </article>
+                </article>
+            </div>
         </section>
         <!--END TESTIMONIALS-->
 
         <!--START CTA-->
-        <section class="cta">
+        <section class="container cta">
             <h1>Get in touch!</h1>
             <p>I look forward to working with you.</p>
             <a href="#">Call Me</a>

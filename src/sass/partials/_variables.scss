@@ -1,12 +1,14 @@
 // Color Palette
+$dark-liver-transparent: rgba(80, 81, 79, .7);
 $dark-liver: rgba(80, 81, 79, 1);
 $pastel-gray: rgba(203, 212, 194, 1);
 $white: rgba(255, 252, 255, 1);
 $lapis-lazuli: rgba(36, 123, 160, 1);
-$Khaki: rgba(195, 178, 153, 1);
+$Khaki: rgba(195, 178, 153, .7);
 
 // Site Colors
 $header: $lapis-lazuli;
+$hero: $dark-liver-transparent;
 $body: $Khaki;
 $footer: $dark-liver;
 

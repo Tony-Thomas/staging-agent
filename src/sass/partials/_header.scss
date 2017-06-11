@@ -1,14 +1,36 @@
-.hero {
+.site-header {
+    background-color: $header;
 
+    a {
+        color: $white;
+    }
+}
+
+.hero {
+    height: 70vh;
+
+    &__overlay {
+        background: $hero;
+        height: 70vh;
+    }
 }
 
 .navbar {
 
+    height: 70px;
+
     &__logo {
+        margin-left: 2em;
+        font-size: 3rem;
 
     }
 
     &__links {
 
+    }
+
+    a {
+        text-align: center;
+        text-decoration: none;
     }
 }
