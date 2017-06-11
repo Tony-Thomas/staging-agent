@@ -68,27 +68,42 @@
   margin-right: 1rem; }
 
 .site-footer__social a {
-  font-family: FontAwesome;
+  /*font-family: FontAwesome;*/
   padding-right: 5px;
   text-decoration: none;
   color: #fffcff;
-  font-size: 3rem; }
-  .site-footer__social a.twitter::before {
-    content: '\f099'; }
-  .site-footer__social a.linkedin::before {
-    content: '\f0e1'; }
-  .site-footer__social a.youtube::before {
-    content: '\f167'; }
-  .site-footer__social a.facebook::before {
-    content: '\f09a'; }
-  .site-footer__social a.google::before {
-    content: '\f0d5'; }
-  .site-footer__social a.instagram::before {
-    content: '\f16d'; }
-  .site-footer__social a.pinterest::before {
-    content: '\f231 '; }
-  .site-footer__social a.medium::before {
-    content: '\f23a'; }
+  font-size: 3rem;
+  /*&.twitter::before {
+        content: '\f099';
+    }
+
+    &.linkedin::before {
+        content: '\f0e1';
+    }
+
+    &.youtube::before {
+        content: '\f167';
+    }
+
+    &.facebook::before {
+        content: '\f09a';
+    }
+
+    &.google::before {
+        content: '\f0d5';
+    }
+
+    &.instagram::before {
+        content: '\f16d';
+    }
+
+    &.pinterest::before {
+        content: '\f231 ';
+    }
+
+    &.medium::before {
+        content: '\f23a';
+    }*/ }
 
 .follow {
   color: #fffcff; }

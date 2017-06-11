@@ -10,13 +10,13 @@
 }
 
 .site-footer__social a {
-    font-family: FontAwesome;
+    /*font-family: FontAwesome;*/
     padding-right: 5px;
     text-decoration: none;
     color: $white;
     font-size:3rem;
 
-    &.twitter::before {
+    /*&.twitter::before {
         content: '\f099';
     }
 
@@ -46,7 +46,7 @@
 
     &.medium::before {
         content: '\f23a';
-    }
+    }*/
 }
 
 .follow {
