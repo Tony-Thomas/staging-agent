@@ -1,37 +1,54 @@
-.social::before {
+.site-footer {
+    background-color: $header;
+    height: 70px;
+}
 
+.follow {
+    color: $white;
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+.site-footer__social a {
     font-family: FontAwesome;
     padding-right: 5px;
+    text-decoration: none;
+    color: $white;
+    font-size:3rem;
 
-    &__twitter::before {
+    &.twitter::before {
         content: '\f099';
     }
 
-    &__linkedin::before {
+    &.linkedin::before {
         content: '\f0e1';
     }
 
-    &__youtube::before {
-
+    &.youtube::before {
+        content: '\f167';
     }
 
-    &__facebook::before {
+    &.facebook::before {
         content: '\f09a';
     }
 
-    &__google::before {
-
+    &.google::before {
+        content: '\f0d5';
     }
 
-    &__instagram::before {
-
+    &.instagram::before {
+        content: '\f16d';
     }
 
-    &__pinterest::before {
-
+    &.pinterest::before {
+        content: '\f231 ';
     }
 
-    &__medium::before {
-
+    &.medium::before {
+        content: '\f23a';
     }
+}
+
+.follow {
+    color: $white;
 }

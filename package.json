@@ -9,6 +9,7 @@
   "author": "Tony Thomas",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.1.20",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",

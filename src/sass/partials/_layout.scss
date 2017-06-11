@@ -1,3 +1,4 @@
+// Header
 .navbar {
     display: flex;
     align-items: center;
@@ -14,4 +15,45 @@
             flex: 1;
         }
     }
+}
+
+// Footer
+.site-footer {
+    display: flex;
+    align-items: center;
+
+    ul {
+        margin-bottom: 0;
+        align-items: center;
+    }
+
+    li {
+        margin-bottom: 0;
+    }
+
+    &__realtor {
+        display: flex;
+        flex: 3;
+    }
+
+    &__social {
+        display: flex;
+        flex: 5;
+        //align-self: center;
+
+        a {
+            flex: 1;
+        }
+    }
+}
+
+/*.realtor {
+    flex: 1;
+    align-items: center;
+    margin: auto;
+}*/
+
+.site-footer ul {
+    list-style: none;
+    display: flex;
 }

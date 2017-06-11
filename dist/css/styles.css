@@ -856,10 +856,37 @@ there.
     .navbar__links a {
       flex: 1; }
 
+.site-footer {
+  display: flex;
+  align-items: center; }
+  .site-footer ul {
+    margin-bottom: 0;
+    align-items: center; }
+  .site-footer li {
+    margin-bottom: 0; }
+  .site-footer__realtor {
+    display: flex;
+    flex: 3; }
+  .site-footer__social {
+    display: flex;
+    flex: 5; }
+    .site-footer__social a {
+      flex: 1; }
+
+/*.realtor {
+    flex: 1;
+    align-items: center;
+    margin: auto;
+}*/
+.site-footer ul {
+  list-style: none;
+  display: flex; }
+
 .site-header {
   background-color: #247ba0; }
   .site-header a {
-    color: #fffcff; }
+    color: #fffcff;
+    font-size: 2rem; }
 
 .hero {
   height: 70vh; }
@@ -870,18 +897,44 @@ there.
 .navbar {
   height: 70px; }
   .navbar__logo {
-    margin-left: 2em;
-    font-size: 3rem; }
+    margin-left: 3rem; }
+    .navbar__logo a {
+      font-size: 3rem; }
   .navbar a {
     text-align: center;
     text-decoration: none; }
 
-.social::before {
+.site-footer {
+  background-color: #247ba0;
+  height: 70px; }
+
+.follow {
+  color: #fffcff;
+  font-size: 3rem;
+  margin-right: 1rem; }
+
+.site-footer__social a {
   font-family: FontAwesome;
-  padding-right: 5px; }
-  .social::before__twitter::before {
+  padding-right: 5px;
+  text-decoration: none;
+  color: #fffcff;
+  font-size: 3rem; }
+  .site-footer__social a.twitter::before {
     content: '\f099'; }
-  .social::before__linkedin::before {
+  .site-footer__social a.linkedin::before {
     content: '\f0e1'; }
-  .social::before__facebook::before {
+  .site-footer__social a.youtube::before {
+    content: '\f167'; }
+  .site-footer__social a.facebook::before {
     content: '\f09a'; }
+  .site-footer__social a.google::before {
+    content: '\f0d5'; }
+  .site-footer__social a.instagram::before {
+    content: '\f16d'; }
+  .site-footer__social a.pinterest::before {
+    content: '\f231 '; }
+  .site-footer__social a.medium::before {
+    content: '\f23a'; }
+
+.follow {
+  color: #fffcff; }
