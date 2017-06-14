@@ -17,6 +17,34 @@
     }
 }
 
+.showcase {
+
+    display: flex;
+
+    &__folley {
+        flex: 1;
+        width: 25%;
+    }
+
+    &__white-aster {
+        flex: 1;
+    }
+
+    &__blue-court {
+        flex: 1;
+    }
+
+    &__leisure-world {
+        flex: 1;
+    }
+
+    &__cotton-court {
+        flex: 1;
+    }
+
+
+}
+
 
 
 .testimonial {

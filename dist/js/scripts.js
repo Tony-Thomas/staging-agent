@@ -13963,3 +13963,9 @@ $('#video-thumbnails').lightGallery({
     loadVimeoThumbnail: true,
     vimeoThumbSize: 'thumbnail_medium',
 });
+
+
+
+$('#aniimated-thumbnials').lightGallery({
+    thumbnail: true
+});

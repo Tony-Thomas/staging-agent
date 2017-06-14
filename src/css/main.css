@@ -74,6 +74,20 @@
   .navbar a {
     text-decoration: none; }
 
+.showcase {
+  display: flex; }
+  .showcase__folley {
+    flex: 1;
+    width: 25%; }
+  .showcase__white-aster {
+    flex: 1; }
+  .showcase__blue-court {
+    flex: 1; }
+  .showcase__leisure-world {
+    flex: 1; }
+  .showcase__cotton-court {
+    flex: 1; }
+
 .testimonial__photo img {
   border: 2px #247ba0; }
 
