@@ -1,9 +1,9 @@
 .site-footer {
-    //background-color: $lapis-lazuli;
+    //background-color: $primary;
     height: 70px;
     padding: 0 3rem 0 3rem;
 
-    background: linear-gradient(132deg, $lapis-lazuli, $pastel-gray);
+    background: linear-gradient(132deg, $primary, $secondary);
     background-size: 400% 400%;
     animation: BackgroundGradient 30s ease infinite;
 
@@ -15,7 +15,7 @@
 }
 
 .follow {
-    color: $white;
+    color: $text-inverse;
     font-size: 3rem;
     margin-right: 1rem;
 }
@@ -24,7 +24,7 @@
     /*font-family: FontAwesome;*/
     padding-right: 5px;
     text-decoration: none;
-    color: $white;
+    color: $text-inverse;
     font-size:3rem;
 
     /*&.twitter::before {
@@ -61,5 +61,5 @@
 }
 
 .follow {
-    color: $white;
+    color: $text-inverse;
 }

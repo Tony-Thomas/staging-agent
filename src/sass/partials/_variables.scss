@@ -7,12 +7,10 @@ $lapis-lazuli: rgba(36, 123, 160, 1);
 $Khaki: rgba(195, 178, 153, .7);
 
 // Site Colors
-$header: $lapis-lazuli;
+$primary: $lapis-lazuli;
+$secondary: $pastel-gray;
 $hero: $dark-liver-transparent;
-$body: $Khaki;
-$footer: $dark-liver;
-
-
+$text-inverse: $white;
 
 // Fonts
 //font-family: 'Poiret One', cursive;
@@ -21,5 +19,3 @@ $footer: $dark-liver;
 $poriet: 'Poiret One', cursive;
 $nixie: 'Nixie One', cursive;
 $gruppo: 'Gruppo', cursive;
-
-// Images

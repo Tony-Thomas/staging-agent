@@ -1,6 +1,6 @@
 .site-header {
-    //background-color: $header;
-    background: linear-gradient(132deg, $lapis-lazuli, $pastel-gray);
+    //background-color: $primary;
+    background: linear-gradient(132deg, $primary, $secondary);
     background-size: 400% 400%;
     animation: BackgroundGradient 30s ease infinite;
 
@@ -11,7 +11,7 @@
     }
 
     a {
-        color: $white;
+        color: $text-inverse;
         font-size: 2rem;
     }
 }
@@ -26,8 +26,12 @@
 }
 
 .navbar {
-
     height: 70px;
+
+    a {
+        text-decoration: none;
+    }
+
 
     &__logo {
         margin-left: 3rem;
@@ -35,14 +39,5 @@
         a {
             font-size: 3rem;
         }
-
-    }
-
-    &__links {
-
-    }
-
-    a {
-        text-decoration: none;
     }
 }

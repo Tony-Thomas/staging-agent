@@ -43,10 +43,12 @@
     align-items: center;
 
     ul {
+        display: flex;
         margin-bottom: 0;
         align-items: center;
         flex: 5;
         justify-content: space-between;
+        list-style: none;
     }
 
     li {
@@ -61,21 +63,9 @@
     &__social {
         display: flex;
         flex: 6;
-        //align-self: center;
 
         a {
             flex: 1;
         }
     }
-}
-
-/*.realtor {
-    flex: 1;
-    align-items: center;
-    margin: auto;
-}*/
-
-.site-footer ul {
-    list-style: none;
-    display: flex;
 }
