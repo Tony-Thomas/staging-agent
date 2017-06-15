@@ -1,7 +1,17 @@
 .site-footer {
-    background-color: $header;
+    //background-color: $lapis-lazuli;
     height: 70px;
     padding: 0 3rem 0 3rem;
+
+    background: linear-gradient(132deg, $lapis-lazuli, $pastel-gray);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+
+    @keyframes BackgroundGradient {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
 }
 
 .follow {

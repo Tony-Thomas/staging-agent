@@ -54,7 +54,17 @@
   display: flex; }
 
 .site-header {
-  background-color: #247ba0; }
+  background: linear-gradient(132deg, #247ba0, #cbd4c2);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 30s ease infinite; }
+
+@keyframes BackgroundGradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
   .site-header a {
     color: #fffcff;
     font-size: 2rem; }
@@ -101,9 +111,19 @@
     text-decoration: none; }
 
 .site-footer {
-  background-color: #247ba0;
   height: 70px;
-  padding: 0 3rem 0 3rem; }
+  padding: 0 3rem 0 3rem;
+  background: linear-gradient(132deg, #247ba0, #cbd4c2);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 30s ease infinite; }
+
+@keyframes BackgroundGradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 .follow {
   color: #fffcff;
