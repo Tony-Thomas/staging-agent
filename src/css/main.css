@@ -75,18 +75,15 @@
     text-decoration: none; }
 
 .showcase {
-  display: flex; }
-  .showcase__folley {
-    flex: 1;
-    width: 25%; }
-  .showcase__white-aster {
-    flex: 1; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .showcase__item {
+    width: 23%; }
+    .showcase__item img {
+      width: 100%; }
   .showcase__blue-court {
-    flex: 1; }
-  .showcase__leisure-world {
-    flex: 1; }
-  .showcase__cotton-court {
-    flex: 1; }
+    width: 100%; }
 
 .testimonial__photo img {
   border: 2px #247ba0; }
@@ -95,7 +92,7 @@
   font-size: 5rem; }
 
 .cta {
-  padding: 12rem 0 12rem 0; }
+  padding: 12rem 0; }
   .cta p {
     font-size: 3rem;
     margin-bottom: 0;
