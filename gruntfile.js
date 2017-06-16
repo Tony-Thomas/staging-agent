@@ -11,9 +11,7 @@ module.exports = function(grunt) {
             js: {
                 src: ['node_modules/jquery/dist/jquery.js',
                     'node_modules/jquery.backstretch/jquery.backstretch.js',
-                    'node_modules/lightgallery/dist/js/lightgallery.js',
-                    'node_modules/lightgallery/demo/js/lg-video.js',
-                    'node_modules/lightgallery/demo/js/lg-thumbnail.js',
+                    'node_modules/flickity/dist/flickity.pkgd.js',
                     'src/js/main.js'
                 ],
                 dest: 'dist/js/scripts.js'
@@ -21,7 +19,7 @@ module.exports = function(grunt) {
             css: {
                 src: ['node_modules/skeleton-css/css/normalize.css',
                     'node_modules/skeleton-css/css/skeleton.css',
-                    'node_modules/lightgallery/dist/css/lightgallery.css',
+                    'node_modules/flickity/dist/flickity.css',
                     'src/css/main.css'
                 ],
                 dest: 'dist/css/styles.css'
@@ -110,5 +108,8 @@ module.exports = function(grunt) {
     //grunt.registerTask('default', ['watch']);
     grunt.registerTask('style', ['sass', 'concat:css', 'cssmin',]); // Run all three CSS tasks
     grunt.registerTask('js', ['concat:js', 'uglify']);
+<<<<<<< HEAD
 
+=======
+>>>>>>> showcase
 };
