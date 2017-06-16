@@ -106,7 +106,6 @@ module.exports = function(grunt) {
     grunt.registerTask('concat-css', ['concat:css']); // grunt concat-css
     //grunt.registerTask('default', ['sass']);
     //grunt.registerTask('default', ['watch']);
-
-    grunt.registerTask('style', ['grunt-sass', 'concat:css', 'grunt-contrib-cssmin']);
-
+    grunt.registerTask('style', ['sass', 'concat:css', 'cssmin',]); // Run all three CSS tasks
+    grunt.registerTask('js', ['concat:js', 'uglify']);
 };
