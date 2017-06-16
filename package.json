@@ -9,7 +9,6 @@
   "author": "Tony Thomas",
   "license": "ISC",
   "devDependencies": {
-    "@fancyapps/fancybox": "^3.1.20",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
@@ -17,10 +16,13 @@
     "grunt-contrib-uglify": "^3.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0",
+    "node-sass": "^4.5.3"
+},
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.1.20",
+    "flickity": "^2.0.8",
     "jquery": "^3.2.1",
     "jquery.backstretch": "^2.1.15",
-    "lightgallery": "^1.4.0",
-    "node-sass": "^4.5.3",
     "skeleton-css": "^2.0.4"
   }
 }
