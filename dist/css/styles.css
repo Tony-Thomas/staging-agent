@@ -997,6 +997,9 @@ http://flickity.metafizzy.co
 .my-story {
   padding: 2rem 0 0 2rem; }
 
+.services {
+  margin-top: 6rem; }
+
 .testimonial__client {
   display: flex;
   flex-direction: column;
@@ -1054,23 +1057,18 @@ http://flickity.metafizzy.co
     .navbar__logo a {
       font-size: 3rem; }
 
-/*.showcase {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.services {
+  margin-top: 6rem; }
 
-    &__item {
-        width: 23%;
+.showcase {
+  margin-top: 3rem; }
 
-        img {
-            width: 100%;
-        }
-    }
+.bio {
+  margin-top: 3rem; }
 
-    &__blue-court {
-        width: 100%;
-    }
-}*/
+.testimonials {
+  margin-top: 3rem; }
+
 .cta {
   padding: 12rem 0; }
   .cta p {

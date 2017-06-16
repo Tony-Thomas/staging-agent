@@ -108,8 +108,4 @@ module.exports = function(grunt) {
     //grunt.registerTask('default', ['watch']);
     grunt.registerTask('style', ['sass', 'concat:css', 'cssmin',]); // Run all three CSS tasks
     grunt.registerTask('js', ['concat:js', 'uglify']);
-<<<<<<< HEAD
-
-=======
->>>>>>> showcase
 };

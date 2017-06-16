@@ -1,20 +1,22 @@
-/*.showcase {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.services {
+    margin-top: 6rem;
+}
 
-    &__item {
-        width: 23%;
+.showcase {
+    margin-top: 3rem;
+}
 
-        img {
-            width: 100%;
-        }
-    }
+.bio {
+    margin-top: 3rem;
+}
 
-    &__blue-court {
-        width: 100%;
-    }
-}*/
+.testimonials {
+    margin-top: 3rem;
+}
+
+section {
+    //border: 2px solid red;
+}
 
 .cta {
     padding: 12rem 0;
