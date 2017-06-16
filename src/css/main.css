@@ -77,17 +77,23 @@
     .navbar__logo a {
       font-size: 3rem; }
 
-.showcase {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-  .showcase__item {
-    width: 23%; }
-    .showcase__item img {
-      width: 100%; }
-  .showcase__blue-court {
-    width: 100%; }
+/*.showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
+    &__item {
+        width: 23%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__blue-court {
+        width: 100%;
+    }
+}*/
 .cta {
   padding: 12rem 0; }
   .cta p {

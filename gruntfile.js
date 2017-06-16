@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             js: {
                 src: ['node_modules/jquery/dist/jquery.js',
                     'node_modules/jquery.backstretch/jquery.backstretch.js',
-                    'node_modules/flickity/dist/flickity.pkgd.js'
+                    'node_modules/flickity/dist/flickity.pkgd.js',
                     'src/js/main.js'
                 ],
                 dest: 'dist/js/scripts.js'
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
             css: {
                 src: ['node_modules/skeleton-css/css/normalize.css',
                     'node_modules/skeleton-css/css/skeleton.css',
-                    'node_modules/flickity/dist/flickity.css'
+                    'node_modules/flickity/dist/flickity.css',
                     'src/css/main.css'
                 ],
                 dest: 'dist/css/styles.css'
